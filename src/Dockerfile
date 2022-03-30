@@ -1,4 +1,4 @@
-ARG TAG=last
+ARG TAG=14.19.1
 FROM node:$TAG
 WORKDIR /app
 COPY package*.json ./
